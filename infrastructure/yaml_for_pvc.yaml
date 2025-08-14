@@ -1,15 +1,16 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: block-pvc
+  name: mysql-pv-claim
 spec:
-  storageClassName: csi-sc-cinderplugin-hiiops
+  storageClassName: manual
   accessModes:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 1Gi
+      storage: 3Gi
 
 
-(oc apply -f C:\Users\Owner\PycharmProjects\4\06\test_open_shift\infrastructure\yaml_for_pvc.yaml)
-"vfvfbbbf"
+
+
+

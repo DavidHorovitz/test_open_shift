@@ -1,3 +1,5 @@
 oc delete all --all -n dovidho-dev
 oc new-project dovidho-dev
-"vfdgffd"
+oc apply -f yaml_for_pvc.yaml
+oc apply -f yaml_for_deployment.yaml
+oc apply -f yaml_for_Service.yaml
