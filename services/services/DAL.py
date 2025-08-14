@@ -1,9 +1,7 @@
-from fastapi import FastAPI
+import requests
+
+API_URL='http://localhost:8000/condition?feature=age&value=youth'
+response=requests.get(API_URL)
 
 
-app = FastAPI()
-
-@app.get("/data")
-async def get_table():
-    return ""
 
