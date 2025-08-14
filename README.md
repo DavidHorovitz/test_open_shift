@@ -1,0 +1,1 @@
+SQL connection to openshift
