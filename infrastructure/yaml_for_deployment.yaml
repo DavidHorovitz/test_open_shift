@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ labels:
+   app:
+ name: test
+spec:
+ replicas: 2
+
+
+(oc apply -f C:\Users\Owner\PycharmProjects\4\06\test_open_shift\infrastructure\yaml_for_deployment.yaml)
